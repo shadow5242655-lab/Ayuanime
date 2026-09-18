@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "installCommand": "npm ci --prefix seanime-web",
+  "buildCommand": "npm run build --prefix seanime-web",
+  "outputDirectory": "seanime-web/out",
+  "env": {
+    "SEA_PUBLIC_PLATFORM": "web"
+  },
+  "rewrites": [
+    {
+      "source": "/((?!.*\\.).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
