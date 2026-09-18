@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "dev": "env-cmd -f .env.web rsbuild dev",
     "dev:mobile": "env-cmd -f .env.mobile rsbuild dev",
@@ -78,7 +82,7 @@
     "crypto-js": "^4.2.0",
     "date-fns": "^3.6.0",
     "domelementtype": "^2.3.0",
-    "domhandler": "^5.0.3",
+    "domhandler": "^2.0.0",
     "embla-carousel-auto-scroll": "^8.6.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
