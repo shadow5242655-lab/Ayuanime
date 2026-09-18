@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "installCommand": "cd seanime-web && npm ci --include=dev",
-  "buildCommand": "cd seanime-web && npm ci --include=dev && SEA_PUBLIC_PLATFORM=web npm run build",
+  "installCommand": "cd seanime-web && npm install --include=dev --no-audit --no-fund",
+  "buildCommand": "cd seanime-web && SEA_PUBLIC_PLATFORM=web npm run build",
   "outputDirectory": "seanime-web/out",
   "env": {
     "SEA_PUBLIC_PLATFORM": "web"
